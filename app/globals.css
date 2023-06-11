@@ -17,11 +17,34 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+.text_pink {
+  color: #db6e8b;
+}
+
+.box-item {
+  @apply rounded-xl cursor-pointer ease-in duration-100;
+}
+
+.box-item h2 {
+  @apply ease-in duration-100;
+}
+
+.box-item:hover {
+  @apply bg-white/10;
+}
+
+.box-item:hover h2 {
+  color: #db6e8b;
+}
+
+a {
+  @apply text-white font-bold ease-in duration-100;
+}
+
+a:hover {
+  color: #db6e8b;
 }
