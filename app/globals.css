@@ -48,3 +48,16 @@ a {
 a:hover {
   color: #db6e8b;
 }
+
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+li {
+  padding-top: 10px;
+}
+
+.text-white {
+  color: #fff;
+}

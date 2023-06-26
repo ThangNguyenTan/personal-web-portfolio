@@ -10,7 +10,7 @@ const ProjectItem = ({ projectItem }) => {
     <Link
       href={linkHref}
       target="_blank"
-      className="grid grid-cols-4 gap-4 px-4 py-4 bg-transparent box-item"
+      className="grid grid-cols-4 gap-4 mb-8 px-4 py-4 bg-transparent box-item"
     >
       <div className="col-span-4 md:col-span-1">
         <Image
@@ -23,9 +23,9 @@ const ProjectItem = ({ projectItem }) => {
       </div>
       <div className="col-span-4 md:col-span-3">
         <h2 className="font-bold text-lg">{projectName}</h2>
-        <p className="mt-3 font-medium text-gray-400 text-base leading-[1.65rem]">
+        <div className="mt-3 font-medium text-gray-400 text-base leading-[1.65rem]">
           {projectDescriptionFunction()}
-        </p>
+        </div>
       </div>
     </Link>
   );

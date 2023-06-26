@@ -1,8 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { experiences } from "@/data/exp";
 import ExpItem from "@/components/ExpItem";
 import ProjectItem from "@/components/ProjectItem";
@@ -16,8 +15,7 @@ export default function Home() {
           <h1 className="text-4xl xl:text-5xl font-black">
             Thang <span className="text_pink">{`"Victor"`}</span> Nguyen <br />{" "}
             <span className="text-2xl font-medium">
-              <span className="text_pink">Software Engineer</span> at{" "}
-              <span className="text_pink">Nashtech</span>
+              <span className="text_pink">Full-stack Web Developer</span>
             </span>
           </h1>
           <h2 className="mt-4 font-normal text-gray-300">
@@ -36,6 +34,12 @@ export default function Home() {
             </Link>
             <Link href="mailto:nguyentanthang1118@gmail.com" target="_blank">
               <FontAwesomeIcon icon={faMailBulk} className="text-2xl" />
+            </Link>
+            <Link
+              href="https://drive.google.com/file/d/1rMzeDif-mXmgBR-5uFRmndZ83CgMzvDx/view?usp=sharing"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faFilePdf} className="text-2xl" />
             </Link>
           </div>
           <h3 className="text-3xl font-bold my-10">ABOUT</h3>

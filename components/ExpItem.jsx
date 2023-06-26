@@ -15,9 +15,9 @@ const ExpItem = ({ expItem }) => {
       </div>
       <div className="col-span-4 md:col-span-3">
         <h2 className="font-bold text-lg">{jobTitle}</h2>
-        <p className="mt-3 font-medium text-gray-400 text-base leading-[1.65rem]">
+        <div className="mt-3 font-medium text-gray-400 text-base leading-[1.65rem]">
           {jobDescriptionFunction()}
-        </p>
+        </div>
       </div>
     </Link>
   );
