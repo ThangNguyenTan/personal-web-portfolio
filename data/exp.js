@@ -5,34 +5,36 @@ export const experiences = [
         jobTitle: "Full-stack Web Developer - Unified (Remote) - Nashtech (Outsource)",
         jobDescriptionFunction: () => (
             <>
-                <p><span className="text-white">Project Name:</span> Social Marketing Management System</p>
+                <p><span className="text-white">Project Domain:</span> Digital Marketing</p>
                 <span className="block my-2"></span>
                 <p><span className="text-white">Origin:</span> United States of America</p>
                 <span className="block my-2"></span>
                 <p><span className="text-white">Tech Stack:</span> Java, Python, Golang, React.js, Postgres, Neo4j</p>
                 <span className="block my-2"></span>
-                <p><span className="text-white">Project Details:</span> Essentially, the product of this project is to
-                allow the customers to have a better way to do marketing and
-                promotion with data analysis, breakdown reports, and set up a
-                baseline to enable the promotions to run smoothly. Currently, I
-                am working in a team in which we are managing a system that can
-                scan the advertisements for issues and notify the managers to
-                take action and resolve the complications to allow the
-                promotions to operate to their maximum potential.</p>
+                <p><span className="text-white">Project Details:</span> Digital marketing project aimed at driving online visibility and engagement, utilizing data-driven strategies for optimal audience targeting and conversion.</p>
                 <span className="block my-2"></span>
                 <span className="text-white">My Responsibility: </span>
                 <ul>
                     <li>
-                        Discuss and negotiate with clients from the US to extract requirements and features
+                        Collaborated with the development team to implement Java, Python, Golang, and JavaScript programming languages in the project.
                     </li>
                     <li>
-                        Key member behind the team leader, in charge of various important components in both back-end and front-end
+                        Contributed to the micro-service architecture, using multiple databases like PostgreSQL, MongoDB, and Neo4j.
                     </li>
                     <li>
-                        Utilize various programming languages to finish the technical tasks and requested features from PO
+                        Utilized Kafka for communication and data streaming within the micro-service architecture.
                     </li>
                     <li>
-                        Co-operate with multiple team members to integrate various parts of the application, approximately upto 40 members in the team 
+                        Employed data manipulation and processing tools such as Pandas and Dask for effective data analysis.
+                    </li>
+                    <li>
+                        Created and maintained the Work Breakdown Structure (WBS) to break down large tasks into manageable objectives.
+                    </li>
+                    <li>
+                        Assisted in the role of a semi Scrum Master and facilitated effective communication and collaboration within the team, hosted planning meetings, and ensured smooth sprint execution.
+                    </li>
+                    <li>
+                        Engaged in regular client meetings to provide updates and gather feedback, ensuring project alignment with client expectations.
                     </li>
                 </ul>
             </>
